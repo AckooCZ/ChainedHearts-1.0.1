@@ -1,0 +1,98 @@
+# ChainedHearts Configuration File
+
+# Enable/disable plugin
+enabled: true
+
+# Main settings
+enabled: true
+
+# Plugin features
+features:
+  # Shared damage
+  shared_damage:
+    enabled: true
+  
+  # Shared hunger
+  shared_hunger:
+    enabled: false
+  
+  # Shared potion effects
+  shared_effects:
+    enabled: false
+    # Which effects should be shared
+    # true = share, false = don't share
+    effects:
+      speed: true
+      slowness: true
+      haste: true
+      mining_fatigue: true
+      strength: true
+      weakness: true
+      regeneration: true
+      poison: true
+      wither: true
+      night_vision: true
+      blindness: true
+      jump_boost: true
+      levitation: true
+      slow_falling: true
+      fire_resistance: true
+      water_breathing: true
+      invisibility: true
+      resistance: true
+      absorption: true
+      saturation: true
+      glow: true
+      luck: true
+      unluck: true
+      darkness: true
+      dolphin_grace: true
+      conduit_power: true
+      slow: true
+      fast_digging: true
+      increase_damage: true
+      heal: true
+      harm: true
+      confusion: true
+  
+    
+  # Damage messages
+  damage_messages:
+    enabled: true
+    # Who receives the message
+    receivers:
+      damaged_player: true
+      other_players: true
+      all_players: false
+    # Where messages are sent
+    output:
+      chat: false
+      actionbar: true
+    # Message formats
+    formats:
+      damaged_player_actionbar: "&c⚠ You lost %damage% HP!"
+      other_players_actionbar: "&6⚠ %player% lost %damage% HP!"
+
+# Messages
+messages:
+  plugin:
+    enabled: '&6&lChainedHearts &fPlugin has been successfully enabled!'
+    disabled: '&6&lChainedHearts &fPlugin has been disabled.'
+  
+  commands:
+    no-permission: '&cYou do not have permission to use this command!'
+    enabled: '&6&lChainedHearts &fPlugin has been enabled.'
+    disabled: '&6&lChainedHearts &fPlugin has been disabled.'
+    reloaded: '&6&lChainedHearts &fConfiguration has been reloaded.'
+    status:
+      enabled: '&aEnabled'
+      disabled: '&cDisabled'
+      message: '&6&lChainedHearts &fPlugin status: %status%'
+    help:
+      header: '&6&l=== ChainedHearts Commands ==='
+      enable: '&e/chainedhearts enable &7- Enable heart and hunger link'
+      disable: '&e/chainedhearts disable &7- Disable heart and hunger link'
+      status: '&e/chainedhearts status &7- Display plugin status'
+      reload: '&e/chainedhearts reload &7- Reload configuration'
+  
+  

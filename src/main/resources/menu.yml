@@ -1,0 +1,66 @@
+# ChainedHearts Menu Configuration
+
+# Main menu settings
+menu:
+  title: "&6&lChainedHearts Settings"
+  size: 36
+  
+  # Menu items
+  items:
+    # Main plugin toggle
+    plugin_toggle:
+      slot: 11
+      material_enabled: "LIME_DYE"
+      material_disabled: "RED_DYE"
+      name: "&6&lPlugin OFF/ON"
+      lore_enabled: "&aPlugin is enabled"
+      lore_disabled: "&cPlugin is disabled"
+      
+    # Shared damage
+    shared_damage:
+      slot: 12
+      material_enabled: "LIME_DYE"
+      material_disabled: "RED_DYE"
+      name: "&6Shared DMG OFF/ON"
+      lore_enabled: "&aShared DMG is enabled"
+      lore_disabled: "&cShared DMG is disabled"
+      
+    # Shared hunger
+    shared_hunger:
+      slot: 13
+      material_enabled: "LIME_DYE"
+      material_disabled: "RED_DYE"
+      name: "&6Shared Hunger OFF/ON"
+      lore_enabled: "&aShared Hunger is enabled"
+      lore_disabled: "&cShared Hunger is disabled"
+      
+    # Shared effects
+    shared_effects:
+      slot: 14
+      material_enabled: "LIME_DYE"
+      material_disabled: "RED_DYE"
+      name: "&6Shared Effects OFF/ON"
+      lore_enabled: "&aShared effects are enabled"
+      lore_disabled: "&cShared effects are disabled"
+      
+    # Action bar messages
+    actionbar_messages:
+      slot: 15
+      material_enabled: "LIME_DYE"
+      material_disabled: "RED_DYE"
+      name: "&6Action Bar Messages OFF/ON"
+      lore_enabled: "&aAction bar messages are enabled"
+      lore_disabled: "&cAction bar messages are disabled"
+      
+    # Close menu
+    close:
+      slot: 35
+      material: "BARRIER"
+      name: "&cClose Menu"
+      
+    # Separators
+    separator:
+      slots: [34, 33, 32, 31, 30, 29, 28, 27]
+      material: "GRAY_STAINED_GLASS_PANE"
+      name: "&f"
+      
