@@ -1,0 +1,28 @@
+name: ChainedHearts
+version: '1.1.0'
+main: dev.acko.chainedhearts.ChainedHearts
+api-version: 1.21
+author: AckooCZ
+description: A plugin that connects damage, hunger and potion effects between players
+website: https://modrinth.com/user/AckoDev
+
+commands:
+  chainedhearts:
+    description: Main command for plugin management
+    usage: /<command> [settings|reload]
+    aliases: [ch, hearts, chained]
+    permission: chainedhearts.admin
+
+permissions:
+  chainedhearts.admin:
+    description: Allows access to administrative commands
+    default: op
+  chainedhearts.exclude:
+    description: Excludes player from chained hearts
+    default: false
+  chainedhearts.exclude.creative:
+    description: Excludes creative mode players from chained hearts
+    default: false
+  chainedhearts.exclude.spectator:
+    description: Excludes spectator mode players from chained hearts
+    default: false
